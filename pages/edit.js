@@ -54,7 +54,7 @@ const Edit = () => {
   };
 
   const deleteProject = (id) => {
-    const copyProjects = data.projects;
+    let copyProjects = [...data.projects];
     copyProjects = copyProjects.filter((project) => project.id !== id);
     setData({ ...data, projects: copyProjects });
   };
@@ -62,7 +62,7 @@ const Edit = () => {
   // Services Handler
 
   const editServices = (serviceIndex, editService) => {
-    let copyServices = data.services;
+    let copyServices = [...data.services];
     copyServices[serviceIndex] = { ...editService };
     setData({ ...data, services: copyServices });
   };
@@ -83,7 +83,7 @@ const Edit = () => {
   };
 
   const deleteService = (id) => {
-    const copyServices = data.services;
+    let copyServices = [...data.services];
     copyServices = copyServices.filter((service) => service.id !== id);
     setData({ ...data, services: copyServices });
   };
@@ -91,7 +91,7 @@ const Edit = () => {
   // Socials Handler
 
   const editSocials = (socialIndex, editSocial) => {
-    let copySocials = data.socials;
+    let copySocials = [...data.socials];
     copySocials[socialIndex] = { ...editSocial };
     setData({ ...data, socials: copySocials });
   };
@@ -111,7 +111,7 @@ const Edit = () => {
   };
 
   const deleteSocials = (id) => {
-    const copySocials = data.socials;
+    let copySocials = [...data.socials];
     copySocials = copySocials.filter((social) => social.id !== id);
     setData({ ...data, socials: copySocials });
   };
@@ -138,7 +138,7 @@ const Edit = () => {
   };
 
   const handleEditExperiences = (index, editExperience) => {
-    let copyExperiences = data.resume.experiences;
+    let copyExperiences = [...data.resume.experiences];
     copyExperiences[index] = { ...editExperience };
     setData({
       ...data,

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 
 const WorkCard = ({ img, name, description, skills, onClick, Organization, dates, type,  position, technologiesUsed, approach, keyFeatures, impact, myRole }) => {
   return (
@@ -101,7 +102,7 @@ const WorkCard = ({ img, name, description, skills, onClick, Organization, dates
         <div style ={{"display": "flex",
   "justify-content": "center",
   "align-items": "center",}} className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-48 mob:h-auto"> 
-          <img 
+          <Image 
             style={{
               height: "100%", 
               width: "62%", 
