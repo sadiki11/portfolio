@@ -1,0 +1,311 @@
+{
+    "name": "SADIKI Zhur👩🏻‍💻",
+    "showCursor": true,
+    "showBlog": false,
+    "darkMode": true,
+    "showResume": true,
+    "socials": [
+        
+        {
+            "id": "2",
+            "title": "LinkedIn",
+            "link": "https://www.linkedin.com/in/zhur-sadiki-18449621b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BwIW3kEmLR0qPVVcNLSUMUQ%3D%3D"
+        },
+        
+        {
+            "id": "5",
+            "title": "Email",
+            "link": "mailto:sadikizhur@gmail.com"
+        }
+    ],
+        "aboutpara": "I am an AI and IoT professional with a Master’s in Applied Sciences, specializing in machine learning, deep learning, and NLP. I thrive on tackling complex problems with cutting-edge AI technologies, particularly in Generative AI, RAG, Vector Databases and Prompt engineering. My values are centered around continuous growth, excellence, and collaboration, while my adaptability ensures I stay ahead in this fast-evolving field. Fluent in English and French, I’m committed to delivering impactful solutions globally.",
+
+        "projects": [
+            {
+                "imageSrc": "projects_imgs/WhatsApp Image 2024-06-15 à 10.33.04_b7a957d8.jpg",
+                "id": "1",
+                "title": "AI-Powered Underwriting",
+                "description": "The underwriting process is automated using an LLM-powered system. Clients submit claims containing their information and requests, which are evaluated by the LLM based on established rules from existing documents to predict a decision.",
+                "objectives": "To streamline the insurance underwriting process by reducing manual efforts and improving decision-making accuracy using natural language understanding of claims and documents.",
+                "Organization": "DXC Technology",
+                "dates": "February 2024 - August 2024",
+                "type": "Hybrid",
+                "position": "AI/ML Engineer",
+                "technologiesUsed": {
+                    "Programming Languages": ["Python"],
+                    "AI & NLP": ["Claude (LLM)", "Natural Language Toolkit (NLTK)"],
+                    "Cloud": ["Amazon SageMaker", "Amazon Bedrock", "AWS Lambda", "Amazon S3", "AWS API Gateway"],
+                    "Database": ["DynamoDB"]
+                },
+                "approach": {
+                    "Data Processing": "Extracted and preprocessed insurance rules from PDF documents stored in S3.",
+                    "Model Integration": ["Used an LLM (Claude) to extract the insurance rules from the PDF document. Interpreted unstructured text in claims, applying underwriting rules to determine claim validity and risk assessment."],
+                    "Automation": "Built Lambda functions to handle the flow between claims analysis, invoking the LLM for interpretation, and storing results in a database.",
+                    "User Interface": "Used Postman to display AI-driven decision-making results and recommendations for underwriters.",
+                    "Optimization": "Focused on prompt engineering to fine-tune the LLM for domain-specific accuracy, improving its understanding of insurance terminology."
+                },
+                "keyFeatures": [
+                    "Automated extraction and interpretation of claim details using LLMs.",
+                    "Real-time risk assessment and claim recommendations.",
+                    "Seamless integration with cloud infrastructure (AWS Lambda, S3) for scalable processing."
+                ],
+                "impact": {
+                    "Claim Processing Time Reduction": "Reduced claim processing time by 80%, enabling faster decision-making and improved customer satisfaction.",
+                    "Underwriting Accuracy Improvement": "Increased underwriting accuracy by 20% through enhanced risk assessment with natural language processing."
+                },
+                "myRole": [
+                    "Led the development of the backend architecture, integrating LLMs for claim analysis.",
+                    "Implemented cloud infrastructure using AWS Lambda and S3 for data handling and processing.",
+                    "Built the frontend interface in React, ensuring a seamless experience for underwriters.",
+                    "Tuned the LLM for domain-specific tasks and optimized model performance."
+                ]
+            },
+            {
+                "id": "2",
+                "title": "InsureBot",
+                "Organization": "DXC Technology",
+                "position": "AI/ML Engineer",
+                "description": "Developed an AI-powered chatbot to automate and streamline the insurance claims submission process, allowing users to file claims, receive decisions, track progress, and inquire about claims efficiently through natural language conversations.",
+                "objective": "To simplify the claims submission process by creating a conversational AI that allows users to submit their claims and receive decisions, handle user queries, and provide real-time claim status updates, reducing the need for human intervention.",
+                "technologiesUsed": {
+                    "Programming Languages": ["Python", "JavaScript"],
+                    "AI & NLP": ["Claude (LLM)", "Natural Language Toolkit (NLTK)"],
+                    "Cloud": ["AWS Lambda", "S3", "API Gateway", "Function URL"],
+                    "Database": ["DynamoDB"],
+                    "Frontend": ["React"]
+                },
+                "approach": {
+                    "Conversational Design": "Designed a natural language interface using prompt-driven design with LLM capabilities, focusing on addressing user inquiries regarding insurance claims.",
+                    "Backend Integration": "Connected the chatbot with backend systems via AWS Lambda to fetch real-time claim information and process new claims.",
+                    "Data Handling": "Implemented secure data storage for claims using DynamoDB to store claim details and user interactions.",
+                    "Claim Validation": "Integrated the chatbot with insurance rules to ensure claims meet the required guidelines before submission.",
+                    "UI Development": "Built a React-based web interface for users to interact with the chatbot and submit their claims."
+                },
+                "keyFeatures": [
+                    "Conversational AI-generated claim assessments and feedback.",
+                    "Automated validation of claim submissions based on insurance policy rules.",
+                    "Real-time updates on claim status and support for follow-up inquiries.",
+                    "Integration with backend claim management systems for seamless data retrieval and processing."
+                ],
+                "impact": {
+                    "Claim Submission Time Reduction": "Reduced the time to submit claims by 80% through automation and conversational AI.",
+                    "Customer Inquiry Handling": "Handled up to 80% of customer inquiries without human intervention, freeing up customer service resources.",
+                    "Customer Satisfaction": "Improved customer satisfaction with faster, real-time updates on claim statuses.",
+                    "Scalability": "Scalable solution that handles thousands of claims daily, reducing the burden on manual underwriting teams."
+                },
+                "myRole": [
+                    "Led the development of the chatbot's natural language processing capabilities using prompt-driven design with LLM capabilities.",
+                    "Designed and implemented the backend architecture using AWS services to process claims and retrieve information in real-time.",
+                    "Developed the web interface using React for users to interact with the chatbot and submit claims.",
+                    "Collaborated with underwriters to integrate insurance-specific rules and ensure compliance in claim submissions.",
+                    "Conducted extensive testing and debugging to ensure chatbot reliability and accuracy, achieving a 95% success rate in processing insurance claims."
+                ]
+            }
+        ], 
+    "Skills": [
+        {
+                "title": "AI Applications🤖",
+                "skills": ["Machine Learning", 
+                    "Deep Learning",
+                    "Neural Networks 🧠",
+                    "Natural Language Processing" , 
+                    "Generative AI 📝",
+                    "Large Language Models (LLMs) 📖",     
+                    "Fine-tuning 🎯",
+                    "Prompt Engineering",
+                    "Retrieval-Augmented Generation (RAG)", 
+                    "Agent Models 🤖"
+                ]
+        },
+        {
+                "title": "AI Frameworks & Libraries 📚",
+                "skills": ["React", 
+                    "TensorFlow 🔗", 
+                    "PyTorch 🔥", 
+                    "Keras ⚙️", 
+                    "Scikit-Learn 🛠️", 
+                    "OpenCV 📷", 
+                    "NLTK 🗣️", 
+                    "SpaCy 📝", 
+                    "Hugging Face Transformers 🤗",
+                    "Node.js"
+            ]
+        },
+        {
+            "title": "Big Data & Databases 🗄️",
+            "skills": ["Hadoop 🏗️", 
+                    "Spark ⚡", 
+                    "Hive 🐝", 
+                    "SQL 🛢️", 
+                    "NoSQL ❌🛢️", 
+                    "Vector Databases 🧠"
+            ]
+        },
+        {
+            "title": "Data Science & Analytics 📊",
+            "skills": ["Data Cleaning & Preprocessing 🧹", 
+                    "Data Wrangling 🔄", 
+                    "Data Visualization 📉", 
+                    "Statistical Analysis 📐", 
+                    "Feature Engineering 🛠️", 
+                    "Dimensionality Reduction 🔽"
+            ]
+        },
+        {
+            "title": "Software Engineering 🖥️",
+                "skills": ["Version Control (Git) 🧩", 
+                    "API Development 🌐", 
+                    "Testing & Debugging ", 
+                    "RESTful APIs ⚙️",  
+                    "Frontend Development (React, Node.js) 💻"
+            ]
+        },
+        {
+                "title": "API Development & Testing",
+                "skills": ["API Testing",
+                    "AWS API Gateway", 
+                    "Function URL", 
+                    "Postman", 
+                    "Frontend Development & APIs"
+            ]
+        },
+        {
+            "title": "Cloud Computing ☁️",
+            "skills": ["AWS Cloud Computing Platform", 
+                "Amazon SageMaker", 
+                "Amazon Bedrock", 
+                "AWS Lambda",
+                "Amazon S3 (Simple Storage Service)", 
+                "Amazon DynamoDB", 
+                "AWS API Gateway",
+                "Amazon SageMaker"
+        ]
+        },
+        {
+            "title": "Soft Skills 🌟",
+            "skills": ["Problem Solving 🧠", 
+                    "Critical Thinking 🤔", 
+                    "Team Collaboration 🤝", 
+                    "Communication 💬", 
+                    "Autonomous Learning 🎓", 
+                    "Adaptability 🌀", 
+                    "Creativity 🎨", 
+                    "Time Management ⏳"
+            ]
+        }
+    ],
+    "Studies": [
+        {
+            "School": "National School Of Applied Sciences",
+            "title": "Artificial Intelligence Master's Degree",
+            "description": "In my Artificial Intelligence Master's Degree, I am gaining a deep understanding of various advanced AI concepts and practical skills. I am mastering machine learning, where I work with algorithms that allow machines to learn from data and make predictions or decisions without explicit programming. In deep learning, I explore neural networks, particularly advanced architectures like CNNs and RNNs, using frameworks such as TensorFlow and PyTorch to develop complex models for tasks like image recognition and language translation. Natural language processing (NLP) is another area of focus, where I learn how to build systems that can understand and interact with human language, applying techniques for tasks like sentiment analysis and text generation. "
+        }
+    ],
+    "resume": {
+        "tagline": "👋  I'm an Artificial Intelligence Engineer.",
+        "description": "I have developed cutting-edge AI solutions that enhance user experiences for diverse audiences",
+        "experiences": [
+            {
+                "id": "1",
+                "dates": "FEBRUARY 2024 - AUGUST 2024",
+                "type": "Hybrid",
+                "position": "AI/ML Engineer Intern at DXC Technology",
+                "bullets": "Underwriter System with Large Language Models (LLMs), Insurance Claims Processing Chatbot"
+            },
+            {
+                "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+                "dates": "APRIL 2022 - JULY 2022",
+                "type": "Remote",
+                "position": "AI Developer",
+                "bullets": "Development of a voice recognition system"
+            }
+        ],
+        "education": {
+            "universityName": "National School Of Applied Sciences",
+            "degree":  "Artificial Intelligence and IoT Master's Degree"
+        },
+        "languages": [
+            "Javascript",
+            "HTML5",
+            "CSS",
+            "Python"
+        ],
+        "AI Applications": [
+            "Strong knowledge of data structures and algorithms", 
+            "Machine Learning", 
+            "Deep Learning",
+            "Neural Networks ",
+            "Natural Language Processing" , 
+            "Reinforcement Learning ",
+            "Computer Vision", 
+            "Ability to implement AI-based solutions and infrastructure",
+            "Familiarity with AI applications in various industries"
+        ],
+        "AI Frameworks & Libraries": [
+            "React", 
+            "TensorFlow ", 
+            "PyTorch ", 
+            "Keras ", 
+            "Scikit-Learn ", 
+            "OpenCV ", 
+            "NLTK ", 
+            "SpaCy ", 
+            "Hugging Face Transformers ",
+            "Node.js"
+        ],
+        "Data Science & Analytics": [
+            "Data Cleaning & Preprocessing ", 
+            "Data Wrangling ", 
+            "Data Visualization ", 
+            "Statistical Analysis ", 
+            "Exploratory Data Analysis (EDA) ", 
+            "Feature Engineering ", 
+            "Dimensionality Reduction "
+        ],
+        "Big Data & Databases 🗄️": [
+            "Hadoop 🏗️", 
+            "Spark ⚡", 
+            "Hive 🐝", 
+            "SQL 🛢️", 
+            "NoSQL ❌🛢️", 
+            "Vector Databases 🧠"
+        ],
+        "Generative AI & Large Language Models (LLMs)": [
+            "Generative AI ", 
+            "Large Language Models (LLMs) ",     
+            "Fine-tuning ",
+            "Prompt Engineering",                 
+            "Claude", 
+            "Retrieval-Augmented Generation (RAG)", 
+            "Agent Models"
+        ],
+        "Cloud Computing": [
+            "AWS Cloud Computing Platform", 
+            "Amazon SageMaker", 
+            "Amazon Bedrock", 
+            "AWS Lambda",
+            "Amazon S3 (Simple Storage Service)", 
+            "Amazon DynamoDB", 
+            "AWS API Gateway",
+            "Amazon SageMaker"
+        ],
+        "API Development & Testing": [
+            "API Testing",
+            "AWS API Gateway", 
+            "Function URL", 
+            "Postman", 
+            "Frontend Development & APIs"
+        ],
+
+        "Soft Skills": [
+            "Problem Solving ", 
+            "Critical Thinking ", 
+            "Team Collaboration ", 
+            "Communication ", 
+            "Autonomous Learning ", 
+            "Adaptability ", 
+            "Creativity ", 
+            "Time Management "
+        ]
+    }
+}

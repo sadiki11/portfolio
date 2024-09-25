@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;500;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./markdown.css";
+
+* {
+  font-family: "Hind";
+}
+
+body {
+  @apply dark:bg-black dark:text-white;
+  margin: 1px;
+  overflow-x: hidden;
+}
+
+.gradient-circle {
+  position: absolute;
+  pointer-events: none;
+  z-index: 100;
+  top: -30px;
+  height: 40px;
+  width: 100vw;
+  opacity: 0.5;
+  filter: blur(40px);
+  background: radial-gradient(
+    circle,
+    rgba(248, 107, 223, 1) 0%,
+    rgba(107, 107, 248, 0.8) 100%
+  );
+}
+.gradient-circle-bottom {
+  position: absolute;
+  pointer-events: none;
+  z-index: 100;
+  bottom: -20px;
+  height: 30px;
+  width: 100vw;
+  opacity: 0.5;
+  filter: blur(40px);
+  background: radial-gradient(
+    circle,
+    rgba(248, 107, 223, 1) 0%,
+    rgba(107, 107, 248, 0.8) 100%
+  );
+}
+
+.gradient-shadow:hover::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(-45deg, #45caff 0%, #ff1b6b 100%);
+  transform: translate3d(0px, 20px, 0) scale(0.95);
+  filter: blur(20px);
+  opacity: var(0.7);
+  transition: opacity 0.3s;
+  border-radius: inherit;
+}
+
+/* 
+* Prevents issues when the parent creates a 
+* stacking context. (For example, using the transform
+* property )
+*/
+.gradient-shadow:hover::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  border-radius: inherit;
+}
+
+.hb{
+  background-color: aqua;
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;500;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./markdown.css";
+
+* {
+  font-family: "Hind";
+}
+
+body {
+  @apply dark:bg-black dark:text-white;
+}
+
+/* Top Gradient Circle */
+.gradient-circle {
+  position: absolute;
+  pointer-events: none;
+  z-index: -1; /* Place it behind content */
+  top: -150px; /* Moved further up for smoother entry */
+  left: -150px;
+  height: 400px;
+  width: 400px;
+  opacity: 0.4; /* Slightly lowered opacity */
+  filter: blur(60px); /* More blur for a softer look */
+  background: radial-gradient(
+    circle at center,
+    rgba(248, 107, 223, 1) 0%,
+    rgba(107, 107, 248, 0.8) 100%
+  );
+}
+
+/* Bottom Gradient Circle */
+.gradient-circle-bottom {
+  position: absolute;
+  pointer-events: none;
+  z-index: -1;
+  bottom: -150px; /* Moved further down for symmetry */
+  right: -150px;
+  height: 400px;
+  width: 400px;
+  opacity: 0.4;
+  filter: blur(60px);
+  background: radial-gradient(
+    circle at center,
+    rgba(248, 107, 223, 1) 0%,
+    rgba(107, 107, 248, 0.8) 100%
+  );
+}
+
+/* Hover Effect for Gradient Shadows */
+.gradient-shadow:hover::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(-45deg, #45caff 0%, #ff1b6b 100%);
+  transform: translate3d(0px, 20px, 0) scale(0.95);
+  filter: blur(25px); /* Increased blur for a glowing effect */
+  opacity: 0.8; /* Brighter hover effect */
+  transition: opacity 0.3s ease;
+  border-radius: inherit;
+}
+
+/* Maintain Border Radius and Background on Hover */
+.gradient-shadow:hover::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  border-radius: inherit;
+}
+
+/* Example of Button Hover with Gradient */
+.hb {
+  background-color: aqua;
+  transition: all 0.3s ease;
+}
+
+.hb:hover {
+  background-color: #45caff; /* Changing hover color */
+  box-shadow: 0 4px 15px rgba(107, 107, 248, 0.6); /* Add a soft shadow */
+  transform: translateY(-5px); /* Slightly lifts the button */
+}
