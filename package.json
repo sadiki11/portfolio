@@ -1,5 +1,5 @@
 {
-  "homepage": "http://zhursadiki.github.io/portfolio",
+  "homepage": "http://sadiki11.github.io/portfolio",
   "name": "react-portfolio-template",
   "version": "3.0",
   "private": true,
@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d .next"
+    "deploy": "gh-pages -d .build"
   },
   "dependencies": {
     "@headlessui/react": "^1.6.6",
